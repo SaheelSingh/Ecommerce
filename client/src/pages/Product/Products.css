@@ -1,0 +1,40 @@
+.top {
+    margin: auto;
+    margin-top: 10px;
+    height: 100px;
+    width: 99%;
+    text-align: center;
+    background-color: white;
+}
+
+.main {
+    margin: auto;
+    width: 99%;
+    background-color: white;
+}
+
+.product {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.item_length {
+    color: gray;
+}
+
+.product_img {
+    height: 190px;
+    width: 190px;
+    align-items: center;
+}
+
+.product_name {
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.product_price {
+    color: green;
+    margin-top: 20px;
+}

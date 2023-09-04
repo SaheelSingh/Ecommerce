@@ -1,0 +1,108 @@
+.flipkart {
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.flipkarts {
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    height: 50px;
+    width: 90%;
+    font-size: 20px;
+}
+
+.div1 {
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    height: 300px;
+    width: 80%;
+}
+
+.empty_cart {
+    height: 200px;
+    width: 250px;
+}
+
+.left-box {
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    width: 90%;
+    background-color: white;
+}
+
+.cartproduct_img {
+    height: 200px;
+    width: 200px;
+}
+
+.cartproduct_name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cartproduct_cat {
+    color: gray;
+    font-weight: 600;
+}
+
+.sellerVision {
+    display: flex;
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cartproduct_price {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.remove {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.remove:hover {
+    color: rgb(40, 116, 240);
+}
+
+.bottom {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.19);
+}
+
+.place_order {
+    background-color: rgb(251, 100, 27);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.right-box {
+    background-color: white;
+    width: 25%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.pricing {
+    margin: 1px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}

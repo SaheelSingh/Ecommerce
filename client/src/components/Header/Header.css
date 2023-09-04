@@ -1,0 +1,37 @@
+nav {
+    color: #f0f0f0;
+    background-color: #287FF0;
+    display: flex;
+}
+
+a {
+    line-height: 10px;
+} 
+
+img {
+    height: 20px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.input {
+    width: 450px;
+}
+
+button {
+    width: 120px;
+}
+
+.products {
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.cartbtn {
+    display: inline-block;
+    margin-left: 20px;
+}

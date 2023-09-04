@@ -1,0 +1,10 @@
+.category {
+    background-color: white;
+    height: 130px;
+}
+
+.catImg {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
