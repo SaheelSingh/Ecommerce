@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config();
 const connectDb = () => {
     try {
-        mongoose.connect('mongodb+srv://ecommerce2:saheel@cluster0.2pfvlib.mongodb.net/?retryWrites=true&w=majority', {
+        mongoose.connect(process.env.MONGO_URL, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
