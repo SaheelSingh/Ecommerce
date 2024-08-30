@@ -18,7 +18,7 @@ function sleep(ms) {
 
 const connectDb = async () => {
     try {
-        db = await mongoose.connect('mongodb://root:secret@db:27017', option)
+        db = await mongoose.connect('mongodb://root:secret@db:27017/ecommerce?authSource=admin', option)
         console.log('connected to Database');
     }
     catch(err) {
