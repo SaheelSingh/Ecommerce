@@ -1,0 +1,42 @@
+version: '3'
+services:
+  api:
+    build: ./api
+    volumes:
+      - ./api:/api
+      - /api/node_modules
+    ports:
+      - 4000:4000
+    depends_on:
+      - db
+    networks:
+      - ecommerce-network
+  client:
+    build: ./client
+    volumes:
+      - ./client:/client
+      - /client/node_modules
+    ports:
+      - 3000:3000
+    depends_on:
+      - api
+    environment:
+      - WATCHPACK_POLLING=true
+    networks:
+      - ecommerce-network
+  db:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb:/data/db
+    networks:
+      - ecommerce-network
+volumes:
+  mongodb:
+networks:
+  ecommerce-network:
+    driver: bridge
