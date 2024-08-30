@@ -14,6 +14,9 @@ function UserContextProvider({ children }) {
                 setId(res.data.userId);
                 setUsername(res.data.username);
             })
+            .catch(err => {
+                console.log(err)
+            })
     }, [])
 
     return (

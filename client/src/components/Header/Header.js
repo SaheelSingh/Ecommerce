@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './Header.css'
 import { Link } from "react-router-dom";
 import { UserContext } from '../../UserContextProvider';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import axios from 'axios';
 
 function Header() {

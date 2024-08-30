@@ -31,7 +31,7 @@ function Cart() {
           </div>
         </div>
         <div className='div1 text-center'>
-          <img src='https://rukminim1.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90' className='mx-auto d-block empty_cart' />
+          <img src='https://rukminim1.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90' className='mx-auto d-block empty_cart' alt='empty_cart' />
           <div className='h3 mt-4' >Missing Cart items?</div>
         </div>
       </>

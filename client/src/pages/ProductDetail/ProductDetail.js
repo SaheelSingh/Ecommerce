@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './ProductDetail.css'
 import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
-import  ShoppingCartIcon  from '@material-ui/icons/ShoppingCart' 
-
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 
 function ProductDetail() {
 
